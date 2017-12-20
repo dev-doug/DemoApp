@@ -14,6 +14,7 @@
 		585628211FE9B23B00C6BB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5856281F1FE9B23B00C6BB3F /* LaunchScreen.storyboard */; };
 		5856282C1FE9B23B00C6BB3F /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5856282B1FE9B23B00C6BB3F /* DemoAppTests.swift */; };
 		585628371FE9BC2B00C6BB3F /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585628361FE9BC2B00C6BB3F /* BinarySearchTests.swift */; };
+		58E918B01FEAB5B4002D764E /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E918AF1FEAB5B4002D764E /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5856282B1FE9B23B00C6BB3F /* DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppTests.swift; sourceTree = "<group>"; };
 		5856282D1FE9B23B00C6BB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585628361FE9BC2B00C6BB3F /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
+		58E918AF1FEAB5B4002D764E /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		585628151FE9B23B00C6BB3F /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				58E918AE1FEAB59A002D764E /* Algorithms */,
 				585628161FE9B23B00C6BB3F /* AppDelegate.swift */,
 				585628181FE9B23B00C6BB3F /* ViewController.swift */,
 				5856281A1FE9B23B00C6BB3F /* Main.storyboard */,
@@ -97,6 +100,14 @@
 				585628361FE9BC2B00C6BB3F /* BinarySearchTests.swift */,
 			);
 			path = DemoAppTests;
+			sourceTree = "<group>";
+		};
+		58E918AE1FEAB59A002D764E /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				58E918AF1FEAB5B4002D764E /* BinarySearch.swift */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			files = (
 				585628191FE9B23B00C6BB3F /* ViewController.swift in Sources */,
 				585628171FE9B23B00C6BB3F /* AppDelegate.swift in Sources */,
+				58E918B01FEAB5B4002D764E /* BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
