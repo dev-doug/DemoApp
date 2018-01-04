@@ -17,7 +17,6 @@ struct BinaryGap {
         var currentGap = 0
 
         for i in binaryString {
-            print(i)
             if i == "1" {
                 if currentGap > longestGap {
                     longestGap = currentGap
