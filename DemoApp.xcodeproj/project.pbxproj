@@ -14,6 +14,8 @@
 		585628211FE9B23B00C6BB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5856281F1FE9B23B00C6BB3F /* LaunchScreen.storyboard */; };
 		5856282C1FE9B23B00C6BB3F /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5856282B1FE9B23B00C6BB3F /* DemoAppTests.swift */; };
 		585628371FE9BC2B00C6BB3F /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585628361FE9BC2B00C6BB3F /* BinarySearchTests.swift */; };
+		5884425B1FFED9A900562510 /* BinaryGapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884425A1FFED9A900562510 /* BinaryGapTests.swift */; };
+		5884425D1FFEDA7C00562510 /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884425C1FFEDA7C00562510 /* BinaryGap.swift */; };
 		58E918B01FEAB5B4002D764E /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E918AF1FEAB5B4002D764E /* BinarySearch.swift */; };
 		58E918B41FEACDC5002D764E /* ShuffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E918B31FEACDC5002D764E /* ShuffleTests.swift */; };
 		58E918B61FEACFCD002D764E /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E918B51FEACFCD002D764E /* Shuffle.swift */; };
@@ -41,6 +43,8 @@
 		5856282B1FE9B23B00C6BB3F /* DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppTests.swift; sourceTree = "<group>"; };
 		5856282D1FE9B23B00C6BB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585628361FE9BC2B00C6BB3F /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
+		5884425A1FFED9A900562510 /* BinaryGapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGapTests.swift; sourceTree = "<group>"; };
+		5884425C1FFEDA7C00562510 /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
 		58E918AF1FEAB5B4002D764E /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		58E918B31FEACDC5002D764E /* ShuffleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleTests.swift; sourceTree = "<group>"; };
 		58E918B51FEACFCD002D764E /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				5856282D1FE9B23B00C6BB3F /* Info.plist */,
 				585628361FE9BC2B00C6BB3F /* BinarySearchTests.swift */,
 				58E918B31FEACDC5002D764E /* ShuffleTests.swift */,
+				5884425A1FFED9A900562510 /* BinaryGapTests.swift */,
 			);
 			path = DemoAppTests;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				58E918AF1FEAB5B4002D764E /* BinarySearch.swift */,
 				58E918B51FEACFCD002D764E /* Shuffle.swift */,
+				5884425C1FFEDA7C00562510 /* BinaryGap.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 				585628191FE9B23B00C6BB3F /* ViewController.swift in Sources */,
 				58E918B61FEACFCD002D764E /* Shuffle.swift in Sources */,
 				585628171FE9B23B00C6BB3F /* AppDelegate.swift in Sources */,
+				5884425D1FFEDA7C00562510 /* BinaryGap.swift in Sources */,
 				58E918B01FEAB5B4002D764E /* BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +240,7 @@
 				585628371FE9BC2B00C6BB3F /* BinarySearchTests.swift in Sources */,
 				5856282C1FE9B23B00C6BB3F /* DemoAppTests.swift in Sources */,
 				58E918B41FEACDC5002D764E /* ShuffleTests.swift in Sources */,
+				5884425B1FFED9A900562510 /* BinaryGapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
