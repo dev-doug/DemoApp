@@ -11,8 +11,24 @@ import Foundation
 struct BinaryGap {
 
     static func largestGap(_ n: Int) -> Int {
+        let binaryString = String(n, radix: 2)
 
-        return 0
+        var longestGap = 0
+        var currentGap = 0
+
+        for i in binaryString {
+            print(i)
+            if i == "1" {
+                if currentGap > longestGap {
+                    longestGap = currentGap
+                }
+                currentGap = 0
+            } else {
+                currentGap += 1
+            }
+        }
+
+        return longestGap
     }
 
 }
